@@ -5,6 +5,7 @@ maintainers:
 security-contact: helpdesk@sebsoft.nl
 labels:
   - fully-free
+  - commercial-support-available
 # Do not claim other unclaimed plugins until their disclosures are reviewed.
 exclude:
   - smsgateway_plivo
