@@ -1,0 +1,13 @@
+# Defaults for CAMP entries sourced from github.com/sebsoftnl.
+# Existing individual claims are not overwritten by the organization sweep.
+maintainers:
+  - github: sebastianberm
+security-contact: helpdesk@sebsoft.nl
+labels:
+  - fully-free
+# Do not claim other unclaimed plugins until their disclosures are reviewed.
+exclude:
+  - smsgateway_plivo
+  - smsgateway_sinch
+  - smsgateway_textmagic
+  - tiny_fonttools
