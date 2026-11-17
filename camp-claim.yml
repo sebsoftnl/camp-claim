@@ -1,0 +1,22 @@
+# Defaults for CAMP entries sourced from github.com/sebsoftnl.
+# Existing individual claims are not overwritten by the organization sweep.
+maintainers:
+  - github: sebastianberm
+security-contact: helpdesk@sebsoft.nl
+labels:
+  - fully-free
+  - commercial-support-available
+# SMS and payment providers require third-party accounts and paid services.
+overrides:
+  smsgateway_plivo:
+    labels: [external-account, paid-service, commercial-support-available]
+  smsgateway_sinch:
+    labels: [external-account, paid-service, commercial-support-available]
+  smsgateway_textmagic:
+    labels: [external-account, paid-service, commercial-support-available]
+  paygw_mollie:
+    labels: [external-account, paid-service, commercial-support-available]
+  paygw_paynl:
+    labels: [external-account, paid-service, commercial-support-available]
+  enrol_classicpay:
+    labels: [external-account, paid-service, commercial-support-available]
